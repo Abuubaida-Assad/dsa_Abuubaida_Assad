@@ -18,3 +18,21 @@ var reverseString = function(s) {
         right--;
     }
 };
+
+
+function solve(nums) {
+    const map = new Map();
+
+    for (const x of nums) {
+        // check
+        if (map.has(x)) {
+            // already exists
+        }
+
+        // insert/update
+        map.set(x, value);
+    }
+
+    return map;
+}
+
