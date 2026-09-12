@@ -20,19 +20,19 @@ var reverseString = function(s) {
 };
 
 
-function solve(nums) {
-    const map = new Map();
+// function solve(nums) {
+//     const map = new Map();
 
-    for (const x of nums) {
-        // check
-        if (map.has(x)) {
-            // already exists
-        }
+//     for (const x of nums) {
+//         // check
+//         if (map.has(x)) {
+//             // already exists
+//         }
 
-        // insert/update
-        map.set(x, value);
-    }
+//         // insert/update
+//         map.set(x, value);
+//     }
 
-    return map;
-}
+//     return map;
+// }
 
