@@ -9,8 +9,4 @@ var singleNumber = function(nums) {
         index ^= nums[i];
     }
 
-    return index;
-};
-
-
 
